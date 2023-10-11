@@ -1,0 +1,124 @@
+
+* {
+  box-sizing: border-box;
+}
+
+img{
+  border-radius: 50%;
+}
+
+.header {
+  padding: 30px;
+  background: rgb(50, 47, 47);
+}
+
+.header h3 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  line-height: 0;
+}
+
+.header h4 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  line-height: 0;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #b5b3b3;
+  border-radius: 20px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.about {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.pengalaman {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.contact {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #15bbd5; 
+  color: black; 
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.video-container iframe {
+    width: 50%; 
+    height: 50vh;
+    }
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #000000;
+  margin-top: 20px;
+}
+
+.footer h3 {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  line-height: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-text {
+          text-align: justify;
+}
+.indent{
+    text-indent: 20px;
+}
